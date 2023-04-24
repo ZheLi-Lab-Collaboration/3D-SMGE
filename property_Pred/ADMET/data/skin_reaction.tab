@@ -1,0 +1,405 @@
+Drug_ID	Drug	Y
+"(16-b)-21-(Acetyloxy)-17-hydroxy-16-methylpregna-1,4,9(11)-triene-3,20-dione"	"CC(=O)OCC(=O)C1(O)C(C)CC2C3CCC4=CC(=O)C=CC4(C)C3=CCC21C"	0
+"(2-Bromo-5-propoxyphenyl)-(2-hydroxy-4-methoxyphenyl)methanone"	"CCCOc1ccc(Br)c(C(=O)c2ccc(OC)cc2O)c1"	0
+"(2E)-2-Methyl-2-butenal"	"CC=C(C)C=O"	0
+"(2-oxo-1-phenylpyrrolidin-3-yl)-Triphenylphosphanium"	"O=C1C([PH](c2ccccc2)(c2ccccc2)c2ccccc2)CCN1c1ccccc1"	0
+"(4Z)-2-Methyl-6-methylene-4-octene"	"C=C(C=CCC(C)C)CC"	0
+"3-Hydroxy-2,4,7,14-tetramethyl-9-oxo-4-vinyltricyclo[5.4.3.01,8]tetradec-6-yl [(8-methyl-8-azabicyclo[3.2.1]oct-3-yl)sulfanyl]acetate"	"C=CC1(C)CC(OC(=O)CSC2CC3CCC(C2)N3C)C2(C)C(C)CCC3(CCC(=O)C32)C(C)C1O"	0
+"[4-(Ethoxymethyl)-2,6-dimethoxyphenyl]boronic acid"	"CCOCc1cc(OC)c(B(O)O)c(OC)c1"	0
+"1-(2',3',4',5'-Tetramethylphenyl)-3-(4'-tetrabutylphenyl)- propane-1,3-dione"	"CCCCc1ccc(C(=O)CC(=O)c2cc(C)c(C)c(C)c2C)cc1"	0
+"3-[(2R)-3-[[2-(2,3-Dihydro-1H-inden-2-yl)-1,1-dimethyl-ethyl]amino]-2-hydroxypropoxy]-4,5-difluoro-benzene propanoic acid"	"CC(C)(CC1Cc2ccccc2C1)NCC(O)COc1cc(CCC(=O)O)cc(F)c1F"	0
+"1-(3',4',5'-Tetramethoxy-phenyl)-4,4-dimethylpentane-1,3-dione"	"COc1cc(C(=O)CC(=O)C(C)(C)C)cc(OC)c1OC"	0
+"1-(4-Ethoxyphenyl)-2-[4-(methylsulfonyl)phenyl]ethanone"	"CCOc1ccc(C(=O)Cc2ccc(S(C)(=O)=O)cc2)cc1"	0
+"1-(tert-Butoxycarbonyl)-4-fluoro-L-prolinamide"	"CC(C)(C)OC(=O)N1CC(F)CC1C(N)=O"	0
+"1-(tert-Butoxycarbonyl)-4-fluoro-L-proline"	"CC(C)(C)OC(=O)N1CC(F)CC1C(=O)O"	0
+"1,1-Dimethylethyl[(1s)-2-[4-[(2-methyl-4-thiazolyl)methoxy]phenyl]-1-(2s)-oxiranylethyl]-carbamate"	"Cc1nc(COc2ccc(CC(NC(=O)OC(C)(C)C)C3CO3)cc2)cs1"	0
+"1,1-Dimethylethyl[1-[bis(4-fluorophenyl)-methyl]-2-[2-cyano-4-fluoro-1-pyrrolidinyl]-2-oxoethyl]carbamate"	"CC(C)(C)OC(=O)NC(C(=O)N1CC(F)CC1C#N)C(c1ccc(F)cc1)c1ccc(F)cc1"	0
+"1,2,3,5,6,7-Hexahydro-2-thioxo-4h-cyclopentapyrimi-din-4-one"	"O=c1[nH]c(=S)[nH]c2c1CCC2"	0
+"1,3-bis(2,5-dimethylphenyl)propane-1,3-dione"	"Cc1ccc(C)c(C(=O)CC(=O)c2cc(C)ccc2C)c1"	0
+"1,5-Dimethyl-4-phenyl-2-imidazolidinone"	"CC1C(c2ccccc2)NC(=O)N1C"	0
+"1-[1-3-(1,3-Benzodioxol-5-yl)-(2-benzyloxy-4- methoxyphenyl)-1- hydroxy-6- propoxy-2-indanoyl]-3,4- dimethyl-5-phenyl-imidazolidinone"	"CCCOc1ccc2c(c1)C(O)(c1ccc(OC)cc1OCc1ccccc1)C(C(=O)N1C(=O)N(C)C(C)C1c1ccccc1)C2c1ccc2c(c1)OCO2"	0
+"1-[2-Amino-3,3-bis(4-fluorophenyl)-1-oxopropyl]-4-fluoro-2-pyrrolidine carbonitrile"	"N#CC1CC(F)CN1C(=O)C(N)C(c1ccc(F)cc1)c1ccc(F)cc1"	0
+"[4S-[1(E),4alpha,5alpha]]-1-[3-[2-[4-Methoxy-2-(phenylmethoxy)-benzoyl]-4-propoxyphenyl]-1-oxo-2-propenyl]-3,4-dimethyl-5-phenyl-2-imidazoli-dinone"	"CCCOc1ccc(C=CC(=O)N2C(=O)N(C)C(C)C2c2ccccc2)c(C(=O)c2ccc(OC)cc2OCc2ccccc2)c1"	0
+"1-[3-(Cyclopentyloxy)-4-methoxy-phenyl]-4-oxocyclohexane carbonitrile"	"COc1ccc(C2(C#N)CCC(=O)CC2)cc1OC1CCCC1"	0
+"1-[3,5-Bis(trifluoromethyl)phenyl]-N-methylethanamine"	"CNC(C)c1cc(C(F)(F)F)cc(C(F)(F)F)c1"	0
+"1-[5-[(4-Fluorophenyl)methyl]-2-furanyl]ethanone"	"CC(=O)c1ccc(Cc2ccc(F)cc2)o1"	0
+"1-Phenylpropylamine"	"CCC(N)c1ccccc1"	0
+"2-(4-Ethoxyphenyl)-3-[4-(methylsulfonyl)phenyl]pyrazolo[1,5-b]pyridazine"	"CCOc1ccc(-c2nn3ncccc3c2-c2ccc(S(C)(=O)=O)cc2)cc1"	0
+"2-(4-Oxopentyl)-1H-isoindole-1,3(2H)-dione"	"CC(=O)CCCN1C(=O)c2ccccc2C1=O"	0
+"2-(Benzyl)tert- butyl)amino)-1-(alpha,4-dihydroxy-m-tolyl)ethane"	"CC(C)(C)N(Cc1ccccc1)CC(O)c1ccc(O)c(CO)c1"	0
+"2,3,3a,4,5,6a-Hexahydrofuro[5,4-b]furan-3-yl N-[3-(1,3-benzodioxol-5-ylsulfonyl-isobutyl-amino)-2-hydroxy-1-[[4-[(2-methylthiazol-4-yl)methoxy]phenyl]methyl]propyl]carbamate"	"Cc1nc(COc2ccc(CC(NC(=O)OC3COC4OCCC34)C(O)CN(CC(C)C)S(=O)(=O)c3ccc4c(c3)OCO4)cc2)cs1"	0
+"2,3,4,5-Tetrahydro-N-(1-methylethyl)-2,4-dioxo-N,5-diphenyl-3-[(phenylmethoxy)-imino]-1H-1,5-benzodiazepine-1-acetamide"	"CC(C)N(C(=O)Cn1c(=O)c(=NOCc2ccccc2)c(=O)n(-c2ccccc2)c2ccccc21)c1ccccc1"	0
+"2,3-Dimethyl-2H-indazol-6-amine"	"Cc1c2ccc(N)cc2nn1C"	0
+"2,6-Dimethoxy-4-methyl-5-[3-(trifluoromethyl)phenoxy]-8-quinolinamine"	"COc1cc(C)c2c(Oc3cccc(C(F)(F)F)c3)c(OC)cc(N)c2n1"	0
+"2-[(Benzyloxy)-imino]malonic acid"	"O=C(O)C(=NOCc1ccccc1)C(=O)O"	0
+"2-[4-({2,6-Dimethoxy-4-methyl-5-[3-(trifluoromethyl)phenoxy]-8-quinolinyl}amino)pentyl]-1H-isoindole-1,3(2H)-dione"	"COc1cc(C)c2c(Oc3cccc(C(F)(F)F)c3)c(OC)cc(NC(C)CCCN3C(=O)c4ccccc4C3=O)c2n1"	0
+"2-Acetylcyclohexanone"	"CC(=O)C1CCCCC1=O"	0
+"2-Aminoethyl methyl sulfone"	"CS(=O)(=O)CCN"	0
+"2-Bromo-5-propoxybenzoic acid"	"CCCOc1ccc(Br)c(C(=O)O)c1"	0
+"2-Chloro-6-methoxy-4-methylquinoline"	"COc1ccc2nc(Cl)cc(C)c2c1"	0
+"2-Hydroxypropyl methacrylate"	"C=C(C)C(=O)OCC(C)O"	0
+"3-(2,3-Dihydro-1H-inden-2-yl)-1-[1-(2-methyl-1,3-oxazol-4-yl)-2-(4-morpholinyl)-2-oxoethyl]-6-[1-methylpropyl]-2,5-piperazinedione"	"CCC(C)C1C(=O)NC(C2Cc3ccccc3C2)C(=O)N1C(C(=O)N1CCOCC1)c1coc(C)n1"	0
+"3-{4-[(6-Bromohexyl)oxy]butyl}benzenesulfonamide"	"NS(=O)(=O)c1cccc(CCCCOCCCCCCBr)c1"	0
+"3-Amino-2,3,4,5-tetrahydro-N-(1-methylethyl)-2,4-dioxo-N,5-diphenyl-1H-1,5-benzodiazepine-1-acetamide"	"CC(C)N(C(=O)CN1C(=O)C(N)C(=O)N(c2ccccc2)c2ccccc21)c1ccccc1"	0
+"3-Hydroxy-2-phenyl-4-quinolinecarboxylic acid"	"O=C(O)c1c(O)c(-c2ccccc2)nc2ccccc12"	0
+"3-Hydroxy-4-methoxybenzaldehyde"	"COc1ccc(C=O)cc1O"	0
+"3-Isopropyl-6-methylcyclohexene"	"CC1C=CC(C(C)C)CC1"	0
+"3-Propoxybenzoic acid"	"CCCOc1cccc(C(=O)O)c1"	0
+"4'-(Trifluoromethyl)-[1,1'- biphenyl]-4-carboxaldehyde"	"O=Cc1ccc(-c2ccc(C(F)(F)F)cc2)cc1"	0
+"4-[4-({1-Butyl-3-[cyclohexyl(hydroxy)methyl]-2,5-dioxo-1,4,9-triazaspiro[5.5]undec-9-yl}methyl)phenoxy]benzoic acid"	"CCCCN1C(=O)C(C(O)C2CCCCC2)NC(=O)C12CCN(Cc1ccc(Oc3ccc(C(=O)O)cc3)cc1)CC2"	0
+"4-Cyano-4-[3-(cyclopentyloxy)-4-methoxyphenyl]cyclohexanecarboxylic acid"	"COc1ccc(C2(C#N)CCC(C(=O)O)CC2)cc1OC1CCCC1"	0
+"4-Fluoro-2-Pyrrolidine-Carboxamide"	"NC(=O)C1CC(F)CN1"	0
+"4-Hydroxybenzoic acid"	"O=C(O)c1ccc(O)cc1"	0
+"4-Isopropenyl-1-methyl-2-methylene-cyclohexane"	"C=C1CC(C(=C)C)CCC1C"	0
+"4-Isopropyl-1-methylene-cyclohexane"	"C=C1CCC(C(C)C)CC1"	0
+"4'-Methoxyacetophenone"	"COc1ccc(C(C)=O)cc1"	0
+"5-({4-[(2,3-Dimethyl-2H-indazol-6-yl)(methyl)amino]-2-pyrimidinyl}amino)-2-methylbenzenesulfonamide"	"Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O"	0
+"5-Amino-2-methylbenzene-sulfonamide"	"Cc1ccc(N)cc1S(N)(=O)=O"	0
+"5-Chloro-2,6-dimethoxy-4-methylquinoline"	"COc1cc(C)c2c(Cl)c(OC)ccc2n1"	0
+"5-Methoxy-2-nitro-4-(trifluoromethyl) benzene acetonitrile"	"COc1cc(CC#N)c([N+](=O)[O-])cc1C(F)(F)F"	0
+"5-Methyl-6-(trifluoromethyl)indoline"	"Cc1cc2c(cc1C(F)(F)F)NCC2"	0
+"6-Chloro-1-hexanol"	"OCCCCCCCl"	0
+"6-Ethenyldeca-hydro-5-hydroxy-4,6,9,10-tetramethyl-1-oxo-3a,9-propano-3ah-cyclopentacyclo-octen-8-yl [[(3-exo)-8-methyl-8-azabicyclo-[3.2.1]oct-3-yl]thio]-acetate"	"C=CC1(C)CC(OC(=O)CO)C2(C)C(C)CCC3(CCC(=O)C32)C(C)C1O"	0
+"6-Iodo-quinazolin-4-ol"	"O=c1[nH]cnc2ccc(I)cc12"	0
+"6-Methoxy-4-methyl-2(1H)-quinolinone"	"COc1ccc2[nH]c(=O)cc(C)c2c1"	0
+"6-Methoxy-4-methyl-8-quinolinamine"	"COc1cc(N)c2nccc(C)c2c1"	0
+"6-Methylcoumarin"	"Cc1ccc2oc(=O)ccc2c1"	0
+"8-Hydroxy-5-{1-hydroxy-2-[(2-{4-[(4-methoxy-3-phenylphenyl)amino]phenyl}ethyl)amino]ethyl}-1,2-dihydroquinolin-2-one"	"COc1ccc(Nc2ccc(CCNCC(O)c3ccc(O)c4[nH]c(=O)ccc34)cc2)cc1-c1ccccc1"	0
+"Adipic acid"	"O=C(O)CCCCC(=O)O"	0
+"Anthranilic acid"	"Nc1ccccc1C(=O)O"	0
+"Atrazine"	"CCNc1nc(Cl)nc(NC(C)C)n1"	0
+"Benzaldehyde"	"O=Cc1ccccc1"	0
+"Benzocaine"	"CCOC(=O)c1ccc(N)cc1"	0
+"Bromobutane"	"CCCCBr"	0
+"Bromononane"	"CCCCCCCCCBr"	0
+"b-Terpinene"	"C=C1CC=C(C(C)C)CC1"	0
+"Butanol"	"CCCCO"	0
+"Chlorobenzene"	"Clc1ccccc1"	0
+"Chlorononane"	"CCCCCCCCCCl"	0
+"Clarithromycin"	"CCC1OC(=O)C(C)C(OC2CC(C)(OC)C(O)C(C)O2)C(C)C(OC2OC(C)CC(N(C)C)C2O)C(C)(OC)CC(C)C(=O)C(C)C(O)C1(C)O"	0
+"Coumarin"	"O=c1ccc2ccccc2o1"	0
+"Cytosine"	"Nc1cc[nH]c(=O)n1"	0
+"Diethyl pthalate"	"CCOC(=O)c1ccccc1C(=O)OCC"	0
+"Dimethyl 4-cyano-4-(3-cyclopentyloxy-4-methoxyphenyl)-pimelate"	"COC(=O)CCC(C#N)(CCC(=O)OC)c1ccc(OC)c(OC2CCCC2)c1"	0
+"Dimethyl carbonate"	"COC(=O)OC"	0
+"Ethyl (Z)-a-[[2-(tert-butoxy)-1,1-dimethyl-2-oxoethoxy]imino]-2-(tritylamino)thiazol-4-acetate"	"CCOC(=O)C(=NOC(C)(C)C(=O)OC(C)(C)C)c1csc(NC(c2ccccc2)(c2ccccc2)c2ccccc2)n1"	0
+"Ethyl 1H-1,2,4-triazole-5-carboxylate"	"CCOC(=O)c1nnc[nH]1"	0
+"Ethyl 2,6-dichloro-5-fluoro-b-oxo-3-pyridinepropanoate"	"CCOC(=O)CC(=O)c1cc(F)c(Cl)nc1Cl"	0
+"Ethyl benzoylacetate"	"CCOC(=O)CC(=O)c1ccccc1"	0
+"Ethyl vanillin"	"CCOc1cc(C=O)ccc1O"	0
+"Fumaric acid"	"O=C(O)C=CC(=O)O"	0
+"Furil"	"O=C(C(=O)c1ccco1)c1ccco1"	0
+"Glycerol"	"OCC(O)CO"	0
+"Hexane"	"CCCCCC"	0
+"Iodohexane"	"CCCCCCI"	0
+"Iodooctadecane"	"CCCCCCCCCCCCCCCCCCI"	0
+"Isopropanol"	"CC(C)O"	0
+"Isopropyl dicyandiamide"	"CC(C)N(C#N)C#N"	0
+"Isopropyl eugenol"	"C=CCc1ccc(O)c(OC(C)C)c1"	0
+"Kanamycin"	"NCC1OC(OC2C(N)CC(N)C(OC3OC(CO)C(O)C(N)C3O)C2O)C(O)C(O)C1O"	0
+"Lactic acid"	"CC(O)C(=O)O"	0
+"m-Chloropropiophenone"	"CCC(=O)c1cccc(Cl)c1"	0
+"Methyl 4-hydroxybenzoate"	"COC(=O)c1ccc(O)cc1"	0
+"Methyl salicylate"	"COC(=O)c1ccccc1O"	0
+"N-(2-Chloro-4-pyrimidinyl)-2,3-dimethyl-2H-indazol-6-amine"	"Cc1c2ccc(Nc3ccnc(Cl)n3)cc2nn1C"	0
+"N-(2-Chloro-4-pyrimidinyl)-N,2,3-trimethyl-2H-indazol-6-amine"	"Cc1c2ccc(N(C)c3ccnc(Cl)n3)cc2nn1C"	0
+"N-[(1,1-Dimethylethoxy)-carbonyl]-L- tyrosine, ethyl ester"	"CCOC(=O)C(Cc1ccc(O)cc1)NC(=O)OC(C)(C)C"	0
+"N-[(1-Butyl-4-piperidinyl)methyl]-3,4-dihydro-2H-[1,3]oxazino[3,2-a]indole-10-carboxamide"	"CCCCN1CCC(CNC(=O)c2c3n(c4ccccc24)CCCO3)CC1"	0
+"N-{[(1,1-Dimethylethyl)oxy] carbonyl}-4-fluoro- b-(4-fluorophenyl)-L- phenylalanine"	"CC(C)(C)OC(=O)NC(C(=O)O)C(c1ccc(F)cc1)c1ccc(F)cc1"	0
+"N-{2-(Benzyloxy)-5-[(1R)-2-bromo-1-hydroxyethyl]phenyl}formamide"	"O=CNc1cc(C(O)CBr)ccc1OCc1ccccc1"	0
+"Octanoic acid"	"CCCCCCCC(=O)O"	0
+"Oxyfluorfen"	"CCOc1cc(Oc2ccc(C(F)(F)F)cc2Cl)ccc1[N+](=O)[O-]"	0
+"Pentaerythritol triacrylate"	"C=CC(=O)OCC(CO)(COC(=O)C=C)COC(=O)C=C"	0
+"Phenylmethyl 2-(4-fluoro-2-methylphenyl)-4-oxo-3,4-dihydro-1 (2H)-pyridine-carboxylate"	"Cc1cc(F)ccc1C1CC(=O)C=CN1C(=O)OCc1ccccc1"	0
+"Propylene glycol"	"CC(O)CO"	0
+"Propylparaben"	"CCCOC(=O)c1ccc(O)cc1"	0
+"Quinoxyfen"	"Fc1ccc(Oc2ccnc3cc(Cl)cc(Cl)c23)cc1"	0
+"Rifamycin"	"COC1C=COC2(C)Oc3c(C)c(O)c4c(O)c(cc(O)c4c3C2=O)NC(=O)C(C)=CC=CC(C)C(O)C(C)C(O)C(C)C(OC(C)=O)C1C"	0
+"Saccharin"	"O=C1NS(=O)(=O)c2ccccc21"	0
+"Salicylic acid"	"O=C(O)c1ccccc1O"	0
+"Succinic Acid"	"O=C(O)CCC(=O)O"	0
+"Sulfanilamide"	"Nc1ccc(S(N)(=O)=O)cc1"	0
+"Sulfanilic acid"	"Nc1ccc(S(=O)(=O)O)cc1"	0
+"Tartaric acid"	"O=C(O)C(O)C(O)C(=O)O"	0
+"tert-Butyl 3-Aminobenzoate"	"CC(C)(C)OC(=O)c1cccc(N)c1"	0
+"Ethyl-2-(Hydroxymethyl)-1,3-Propanediol Triacrylate"	"C=CC(=O)OCC(CC)(COC(=O)C=C)COC(=O)C=C"	0
+"Vanillin"	"COc1cc(C=O)ccc1O"	0
+"Vinylidene dichloride"	"C=C(Cl)Cl"	0
+"(2E)-2-Decenal"	"CCCCCCCC=CC=O"	1
+"(E)-Anethol"	"CC=Cc1ccc(OC)cc1"	1
+"1 -Phenyloctane-1,3-dione"	"CCCCCC(=O)CC(=O)c1ccccc1"	1
+"1-(2',5'-diethylphenyl)butane-1,3-dione"	"CCc1ccc(CC)c(C(=O)CC(C)=O)c1"	1
+"1-(2,5-Dimethylphenyl)-1,3-butanedione"	"CC(=O)CC(=O)c1cc(C)ccc1C"	1
+"1,2-Benzisothiazolin-3-one"	"O=c1[nH]sc2ccccc12"	1
+"1,2-Dibromo-2,4-dicyanobutane"	"N#CCCC(Br)(C#N)CBr"	1
+"1,5-Dimethyl-3-(1-oxo-2-propenyl)-4-phenyl-2-imidazolidinone"	"C=CC(=O)N1C(=O)N(C)C(C)C1c1ccccc1"	1
+"1,6-Bis(2,3-epoxypropoxy)-hexane"	"C(CCCOCC1CO1)CCOCC1CO1"	1
+"12-Bromo-1-dodecanol"	"OCCCCCCCCCCCCBr"	1
+"14-Hydroxynor-morphinone"	"O=C1C=CC2(O)C3Cc4ccc(O)c5c4C2(CCN3)C1O5"	1
+"1-Chloro-2,4- dinitrobenzene"	"O=[N+]([O-])c1ccc(Cl)c([N+](=O)[O-])c1"	1
+"1-Chlorooctadecane"	"CCCCCCCCCCCCCCCCCCCl"	1
+"1-Iododecane"	"CCCCCCCCCCI"	1
+"1-Methyl-3-nitro- nitrosoguanidine"	"CN(N=O)C(=N)N[N+](=O)[O-]"	1
+"1-Naphthol"	"Oc1cccc2ccccc12"	1
+"2-(4-Amino-2nitro-phenylamino)-ethanol"	"Nc1ccc(NCCO)c([N+](=O)[O-])c1"	1
+"2(E)-Hexenal"	"CCCC=CC=O"	1
+"2-(2,4-Diaminophenoxy)ethanol"	"Nc1ccc(OCCO)c(N)c1"	1
+"2-[1-(4-Bromophenyl)-1-phenylethoxy]-N,N-dimethyl-ethanamine hydrochloride"	"CN(C)CCOC(C)(c1ccccc1)c1ccc(Br)cc1"	1
+"2-Aminophenol"	"Nc1ccccc1O"	1
+"2-Benzyl-tert-butylamino-3'-hydroxymethyl-4'-hydroxyaceto-phenone"	"CC(C)(C)N(CC(=O)c1ccc(O)c(CO)c1)Cc1ccccc1"	1
+"2-Bromo-5-hydroxy-benzaldehyde"	"O=Cc1cc(O)ccc1Br"	1
+"2-Ethylhexyl acrylate"	"C=CC(=O)OCC(CC)CCCC"	1
+"2-Hydroxyethyl acrylate"	"C=CC(=O)OCCO"	1
+"2-Mercapto-benzothiazole"	"Sc1nc2ccccc2s1"	1
+"2-Methoxy-4-methylphenol"	"COc1cc(C)ccc1O"	1
+"2-Methylundecanal"	"CCCCCCCCCC(C)C=O"	1
+"2-Nitro-p- phenylenediamine"	"Nc1ccc(N)c([N+](=O)[O-])c1"	1
+"4-Sulfophenyl-6-((1-oxononyl)amino)hexanoate (Nonanoylamidocaproylacidoxybenzenesulfonate)"	"CCCCCCCCC(=O)NCCC(CCC(=O)O)c1ccccc1S(=O)(=O)O"	1
+"3,4-Dichloroaniline hydrochloride"	"Nc1ccc(Cl)c(Cl)c1"	1
+"3,5,5-Trimethyl- hexanoyl chloride"	"CC(CC(=O)Cl)CC(C)(C)C"	1
+"3-Bromomethyl-5, 5'-dimethyl- dihydro-2(3H)-furanone"	"CC1(C)CC(CBr)C(=O)O1"	1
+"3-Dimethylamino- propylamine"	"CN(C)CCCN"	1
+"3-Fluoro-5-(3-pyridinyl)benzen-amine"	"Nc1cc(F)cc(-c2cccnc2)c1"	1
+"3-Methyleugenol"	"C=CCc1cc(C)c(OC)c(O)c1"	1
+"4,4,4-Trifluoro-1- phenylbutane-1,3- dione"	"O=C(CC(=O)C(F)(F)F)c1ccccc1"	1
+"4-Allylanisole"	"C=CCc1ccc(OC)cc1"	1
+"4-Methylamino- phenol sulfate"	"CNc1ccc(O)cc1"	1
+"4-Phenylene-diamine"	"Nc1ccc(N)cc1"	1
+"5-Amino-O-Cresol"	"Cc1ccc(N)cc1O"	1
+"5-Chloro-2-methyl- 4-isothiazolin-3-one"	"Cn1sc(Cl)cc1=O"	1
+"5-Methyl-2,3-hexanedione"	"CC(=O)C(=O)CC(C)C"	1
+"5-Methyleugenol"	"C=CCc1cc(OC)c(O)cc1C"	1
+"2-Methoxy-4-methyl-4-(prop-2-en-1-yl)cyclohex-2-en-1-one"	"C=CCC1(C)C=C(OC)C(=O)CC1"	1
+"6-(Diethylamino)- 1 -hexanol"	"CCN(CC)CCCCCCO"	1
+"6(E)-Nonenal"	"CCC=CCCCCC=O"	1
+"6-Methyleugenol"	"C=CCc1cc(C)c(O)c(OC)c1"	1
+"6-Methylisoeugenol"	"CC=Cc1cc(C)c(O)c(OC)c1"	1
+"a-Amyl cinnamic aldehyde"	"CCCCCC(C=O)=Cc1ccccc1"	1
+"a-Butyl cinnamic aldehyde"	"CCCCC(C=O)=Cc1ccccc1"	1
+"a-Hexyl cinnamic aldehyde"	"CCCCCCC(C=O)=Cc1ccccc1"	1
+"alpha-Methyl cinnamic aldehyde"	"CC(C=O)=Cc1ccccc1"	1
+"a-Methyl phenylacetaldehyde"	"CC(C=O)c1ccccc1"	1
+"Aniline"	"Nc1ccccc1"	1
+"Benzene-1,3,4-tricarboxylic anhydride"	"O=C(O)c1ccc2c(c1)C(=O)OC2=O"	1
+"Benzyl benzoate"	"O=C(OCc1ccccc1)c1ccccc1"	1
+"Benzyl Bromide"	"BrCc1ccccc1"	1
+"Benzylidene acetone"	"CC(=O)C=Cc1ccccc1"	1
+"Diglycidyl ether of Bisphenol A"	"CC(C)(c1ccc(OCC2CO2)cc1)c1ccc(OCC2CO2)cc1"	1
+"b-Phellandrene"	"C=C1C=CC(C(C)C)CC1"	1
+"b-Phenylcinnamaldehyde"	"O=CC=C(c1ccccc1)c1ccccc1"	1
+"Bromodocosane"	"CCCCCCCCCCCCCCCCCCCCCCBr"	1
+"Bromododecane"	"CCCCCCCCCCCCBr"	1
+"Bromoeicosane"	"CCCCCCCCCCCCCCCCCCCCBr"	1
+"Bromoheptadecane"	"CCCCCCCCCCCCCCCCCBr"	1
+"Bromohexadecane"	"CCCCCCCCCCCCCCCCBr"	1
+"Bromohexane"	"CCCCCCBr"	1
+"Bromooctadecane"	"CCCCCCCCCCCCCCCCCCBr"	1
+"Bromopentadecane"	"CCCCCCCCCCCCCCCBr"	1
+"Bromotetradecane"	"CCCCCCCCCCCCCCBr"	1
+"Bromotridecane"	"CCCCCCCCCCCCCBr"	1
+"Bromoundecane"	"CCCCCCCCCCCBr"	1
+"Butyl acrylate"	"C=CC(=O)OCCCC"	1
+"Butyl glycidyl ether"	"CCCCOCC1CO1"	1
+"C11-azlactone"	"CCCCCCCCCCCC1=NC(C)(C)C(=O)O1"	1
+"C4-azlactone"	"CCCCC1=NC(C)(C)C(=O)O1"	1
+"Chlorotetradecane"	"CCCCCCCCCCCCCCCl"	1
+"Cinnamic alcohol"	"OCC=Cc1ccccc1"	1
+"Cinnamic aldehyde"	"O=CC=Cc1ccccc1"	1
+"Citral"	"CC(C)=CCCC(C)=CC=O"	1
+"Clorohexadecane"	"CCCCCCCCCCCCCCCCCl"	1
+"Cyclamen aldehyde"	"CC(C=O)Cc1ccc(C(C)C)cc1"	1
+"Diethyl sulfate"	"CCOS(=O)(=O)OCC"	1
+"Diethylacetaldehyde"	"CCC(C=O)CC"	1
+"Diethylenetriamine"	"NCCNCCN"	1
+"Dihydroeugenol"	"CCCc1ccc(O)c(OC)c1"	1
+"Dinocap"	"CC=CC(=O)Oc1c(C(C)CCCCCC)cc([N+](=O)[O-])cc1[N+](=O)[O-]"	1
+"Dipropylene triamine"	"NCCCNCCCN"	1
+"Dodecyl methanesulfonate"	"CCCCCCCCCCCCOS(C)(=O)=O"	1
+"Ethyl (3-endo)-8- methyl-8- azabicyclo[3,2,1]- octane-3-acetate"	"CCOC(=O)CC1CC2CCC(C1)N2C"	1
+"Ethyl acrylate"	"C=CC(=O)OCC"	1
+"2-(Hydroxymethyl)pentane-1,3-diol"	"CCC(O)C(CO)CO"	1
+"Ethylene dimethacrylate"	"C=C(C)C(=O)OCCOC(=O)C(=C)C"	1
+"2-Methyl propenoic acid"	"C=C(C)C(=O)O"	1
+"Eugenol"	"C=CCc1ccc(O)c(OC)c1"	1
+"Fluorescein isothiocyanate"	"O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccc(N=C=S)cc21"	1
+"Hydroxycitronellal"	"CC(CC=O)CCCC(C)(C)O"	1
+"Iododecane"	"CCCCCCCCCCCCI"	1
+"Iodohexadecane"	"CCCCCCCCCCCCCCCCI"	1
+"Iodononane"	"CCCCCCCCCI"	1
+"Iodotetradecane"	"CCCCCCCCCCCCCCI"	1
+"Isoeugenol"	"CC=Cc1ccc(O)c(OC)c1"	1
+"Isononanoyl chloride"	"CC(C)CCCCCC(=O)Cl"	1
+"Isopropyl isoeugenol"	"CC=Cc1ccc(O)c(OC(C)C)c1"	1
+"Isopropyl myristate"	"CCCCCCCCCCCCCC(=O)OC(C)C"	1
+"Lauryl gallate"	"CCCCCCCCCCCCOC(=O)c1cc(O)c(O)c(O)c1"	1
+"Limonene"	"C=C(C)C1CC=C(C)CC1"	1
+"Linalool aldehyde"	"C=CC(C)(O)CCC=C(C)C=O"	1
+"Linoleic acid"	"CCCCCC=CCC=CCCCCCCCC(=O)O"	1
+"Methyl 2-nonynoate"	"CCCCCCC#CC(=O)OC"	1
+"Methyl acrylate"	"C=CC(=O)OC"	1
+"Methyl hexadec-1-ene-1- sulfonate"	"CCCCCCCCCCCCCCC=CS(=O)(=O)OC"	1
+"Methyl methacrylate"	"C=C(C)C(=O)OC"	1
+"m-Phenylenebis-(methylamine)"	"CNc1cccc(NC)c1"	1
+"N-(4-Methoxyphenyl)-3-oxobutanamide"	"COc1ccc(NC(=O)CC(C)=O)cc1"	1
+"Nonanoyl chloride"	"CCCCCCCCC(=O)Cl"	1
+"Norbornene fluoroalcohol"	"FOC1=C2CCC(C2)C1"	1
+"Octanol"	"CCCCCCCCO"	1
+"Oleic acid"	"CCCCCCCCC=CCCCCCCCC(=O)O"	1
+"(4E)-4-(Ethoxymethylene)-2-phenyl-1,3-oxazol-5(4H)-one"	"CCOC=C1N=C(c2ccccc2)OC1=O"	1
+"Palmitoyl chloride"	"CCCCCCCCCCCCCCCC(=O)Cl"	1
+"Phenyl benzoate"	"O=C(Oc1ccccc1)c1ccccc1"	1
+"Resorcinol"	"Oc1cccc(O)c1"	1
+"Trimethylhexamine diamine"	"CC(CCCCN)C(C)(C)N"	1
+"Undecylenic acid"	"C=CCCCCCCCCC(=O)O"	1
+"Veratraldehyde"	"COc1ccc(C=O)cc1OC"	1
+"(2E)-2-[(2-Formyl- 4-hydroxyphenyl)- methylidene]-butanedioic acid"	"O=Cc1cc(O)ccc1C=C(CC(=O)O)C(=O)O"	1
+"(2E,4E)-2,4-Hexadienal"	"CC=CC=CC=O"	1
+"(3-Endo)-8-methyl- 8-azabicyclo[3,2,1]- octan-3-ol"	"CN1C2CCC1CC(O)C2"	1
+"1-(2',3',4',5'-Tetramethylphenyl)butane-1,3-dione"	"CC(=O)CC(=O)c1cc(C)c(C)c(C)c1C"	1
+"1-(p-methoxyphenyl)-1- penten-3-one"	"CCC(=O)C=Cc1ccc(OC)cc1"	1
+"1,1-Dimethylethyl3-[[[[(3s)-2,3,4,5-tetrahydro-1-[2-[(1-methylethyl)pheny lamino]-2-oxoethyl]-2,4-dioxo-5-phenyl-1h-1,5-benzodiazepin-3-yl]amino]carbonyl]amino]benzoate"	"CC(C)N(C(=O)CN1C(=O)C(NC(=O)Nc2cccc(C(=O)OC(C)(C)C)c2)C(=O)N(c2ccccc2)c2ccccc21)c1ccccc1"	1
+"1,2-Diaminocyclohexane"	"NC1CCCCC1N"	1
+"1,3-Benzodioxazole-5- sulphonyl chloride"	"O=S(=O)(Cl)c1ccc2c(c1)OCO2"	1
+"1,4-Dihydroquinone"	"Oc1ccc(O)cc1"	1
+"12-Bromododecanoic acid"	"O=C(O)CCCCCCCCCCCBr"	1
+"1-Chloromethyl- pyrene"	"ClCc1ccc2ccc3cccc4ccc1c2c34"	1
+"1-Phenyl-1,2-propanedione"	"CC(=O)C(=O)c1ccccc1"	1
+"1-Phenyl-2-methylbutane-1,3-dione"	"CC(=O)C(C)C(=O)c1ccccc1"	1
+"2-(3,4-Dimethylphenyl)-5-methyl-2,4-dihydro-3H-pyrazol-3-one"	"Cc1cc(=O)n(-c2ccc(C)c(C)c2)[nH]1"	1
+"2-(4-tert-Amylcyclohexyl)acetaldehyde"	"CCC(C)(C)C1CCC(CC=O)CC1"	1
+"2,2,6,6-Tetramethyl-heptane-3,5-dione"	"CC(C)(C)C(=O)CC(=O)C(C)(C)C"	1
+"2,2-bis-[4-(2-hydroxy-3methacryloxypropoxy)phenyl)]-propane"	"C=C(C)C(=O)OCC(O)COc1ccc(C(C)(C)c2ccc(OCC(O)COC(=O)C(=C)C)cc2)cc1"	1
+"2,4,6-Trichloro- 1,3,5-triazine"	"Clc1nc(Cl)nc(Cl)n1"	1
+"2,4-Dichloro-pyrimidine"	"Clc1ccnc(Cl)n1"	1
+"2,4-Dinitrobenzene sulfonic acid"	"O=[N+]([O-])c1ccc(S(=O)(=O)O)c([N+](=O)[O-])c1"	1
+"2,4-Heptadienal"	"CCC=CC=CC=O"	1
+"2,5-Diaminotoluene"	"Cc1cc(N)ccc1N"	1
+"2,6,6-Trimethyl-1,3-cyclohexadiene-1-carbaldehyde"	"CC1=C(C=O)C(C)(C)CC=C1"	1
+"2,6-Dimethoxy-4-methyl-8-nitro-5-[3-(trifluoromethyl)-phenoxy]quinoline"	"COc1cc(C)c2c(Oc3cccc(C(F)(F)F)c3)c(OC)cc([N+](=O)[O-])c2n1"	1
+"2-Amino-6-chloro- 4-nitrophenol"	"Nc1cc([N+](=O)[O-])cc(Cl)c1O"	1
+"2-Amino-di- phenylamine"	"Nc1ccccc1Nc1ccccc1"	1
+"2-Bromotetra-decanoic acid"	"CCCCCCCCCCCCC(Br)C(=O)O"	1
+"2-Chloro-1-[(3- fluorophenyl)- methoxy]-4-nitrobenzene"	"O=[N+]([O-])c1ccc(OCc2cccc(F)c2)c(Cl)c1"	1
+"2-Methyl-4H-3,1-benzoxazin-4-one"	"Cc1nc2ccccc2c(=O)o1"	1
+"2-Methyl-5-hydroxy-ethylaminophenol"	"Cc1ccc(NCCO)cc1O"	1
+"3, 3', 4', 5-Tetrachloro-salicylanilide"	"O=C(Nc1ccc(Cl)c(Cl)c1)c1cc(Cl)cc(Cl)c1O"	1
+"3,4-Dihydrocoumarin"	"O=C1CCc2ccccc2O1"	1
+"3-Aminomethyl- 3,5,5-trimethylcyclohexyl amine"	"CC1(C)CC(N)CC(C)(CN)C1"	1
+"3-Aminophenol"	"Nc1cccc(O)c1"	1
+"3-Chloro-4-fluorobenzoylchloride"	"O=C(Cl)c1ccc(F)c(Cl)c1"	1
+"3-Ethoxy-1-(2',3',4',5'-tetramethylphenyl)propane-1,3-dione"	"CCOC(=O)CC(=O)c1cc(C)c(C)c(C)c1C"	1
+"3-Methyl-4-phenyl-1,2,5-thiadiazole-1,1-dioxide"	"C=C1NS(=O)(=O)N=C1c1ccccc1"	1
+"3-Methylisoeugenol"	"CC=Cc1ccc(O)c(OC)c1C"	1
+"3-Phenylene-diamine"	"Nc1cccc(N)c1"	1
+"3-Propylidene phthalide"	"CCC=C1OC(=O)c2ccccc21"	1
+"4-(Bromomethyl)- benzoic acid ethyl ester"	"CCOC(=O)c1ccc(CBr)cc1"	1
+"4-(N-Ethyl-N-2- methan-sulfamido- ethyl)-2-methyl- 1,4,-phenylene-diamine"	"CCN(CCNS(C)(=O)=O)c1ccc(N)c(C)c1"	1
+"4(or3)-(4-hydroxy-4-methylphenyl)-3-cyclohexen-1-carboxyaldehyde"	"CC(C)(O)CCCC1=CCC(C=O)CC1"	1
+"4,4-Dibromobenzil"	"O=C(C(=O)c1ccccc1)C1=CCC(Br)(Br)C=C1"	1
+"4-Amino-3- nitrophenyl thiocyanate"	"N#CSc1ccc(N)c([N+](=O)[O-])c1"	1
+"4-Bromo-1- phthalimidopentane"	"CC(Br)CCCN1C(=O)c2ccccc2C1=O"	1
+"4-Chloro-6- iodoquinazoline"	"Clc1ncnc2ccc(I)cc12"	1
+"4-Iodo-1-phthalimido-pentane"	"CC(I)CCCN1C(=O)c2ccccc2C1=O"	1
+"4-isopropenyl-1-methyl-6-methylene-cyclohexene"	"C=C1CC(C(=C)C)CC=C1C"	1
+"4-Nitrobenzyl bromide"	"O=[N+]([O-])c1ccc(CBr)cc1"	1
+"5,5-Dimethyl-3-methylenedihydro-2(3H)-furanone"	"C=C1CC(C)(C)OC1=O"	1
+"5'-Chloro-2'- hydroxy-3'-nitro- [1,1'-biphenyl]-3- carboxylic acid"	"O=C(O)c1cccc(-c2cc(Cl)cc([N+](=O)[O-])c2O)c1"	1
+"5-Chloro-2,6- dimethoxy-4- methyl-8- nitroquinoline"	"COc1cc(C)c2c(Cl)c(OC)cc([N+](=O)[O-])c2n1"	1
+"5-Chloro-6-methoxy-4-methyl-8-nitro-2(1h)quinolinone"	"COc1cc([N+](=O)[O-])c2[nH]c(=O)cc(C)c2c1Cl"	1
+"5-Methoxy-6-trifluoromethyl-2,3-dihydro-1H-indole"	"COc1cc2c(cc1C(F)(F)F)NCC2"	1
+"5-Methyl-2-phenyl-2-hexenal"	"CC(C)CC=C(C=O)c1ccccc1"	1
+"6-[(2-Methyl-3-pyridinyl)oxy]-3-pyridinamine"	"Cc1ncccc1Oc1ccc(N)cn1"	1
+"6-Diethylaminohexyl bromide hydrobromide"	"CCN(CC)CCCCCCBr"	1
+"7,12-Dimethyl-benz[a]anthracene"	"Cc1c2ccccc2c(C)c2c1ccc1ccccc12"	1
+"7-[(4z)-3-(Aminomethyl)-4-(methoxyimino)-1 -pyrrolidinyl]-1-cyclopropyl-6-fluoro-1,4-dihydro-4-oxo-1,8-naphthyridine-3 -carboxylic acid,monomethane-sulfonate"	"CON=C1CN(c2nc3c(cc2F)c(=O)c(C(=O)O)cn3C2CC2)CC1CN"	1
+"7-Bromotetradecane"	"CCCCCCCC(Br)CCCCCC"	1
+"8-Chloro-3-pentyl-3,7-dihydro-1h-purine-2,6-dione"	"CCCCCn1c(=O)[nH]c(=O)c2[nH]c(Cl)nc21"	1
+"Abietic acid"	"CC(C)C1=CC2=CCC3C(C)(C(=O)O)CCCC3(C)C2CC1"	1
+"a-Phellandrenea"	"CC1=CCC(C(C)C)C=C1"	1
+"a-Terpinene"	"CC1=CC=C(C(C)C)CC1"	1
+"Azithromycin"	"CCC1OC(=O)C(C)C(OC2CC(C)(OC)C(O)C(C)O2)C(C)C(OC2OC(C)CC(N(C)C)C2O)C(C)(O)CC(C)CN(C)C(C)C(O)C1(C)O"	1
+"Bandrowski's base"	"N=C1CC(=Nc2ccc(N)cc2)C(=N)CC1=Nc1ccc(N)cc1"	1
+"Benzalkonium chloride"	"CCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1"	1
+"Benzo[a]pyrene"	"c1ccc2c(c1)cc1ccc3cccc4ccc2c1c34"	1
+"Benzoquinone"	"O=C1C=CC(=O)C=C1"	1
+"beta-Propiolactone"	"O=C1CCO1"	1
+"Butanedione"	"CC(=O)C(C)=O"	1
+"C15-azlactone"	"CCCCCCCCCCCCCCCC1=NC(C)(C)C(=O)O1"	1
+"C17-azlactone"	"CCCCCCCCCCCCCCCCCC1=NC(C)(C)C(=O)O1"	1
+"C6-azlactone"	"CCCCCCC1=NC(C)(C)C(=O)O1"	1
+"C9-azlactone"	"CCCCCCCCCC1=NC(C)(C)C(=O)O1"	1
+"Carvoxime"	"C=C(C)C1CCC(C)=C(N=O)C1"	1
+"Chlorothalonil"	"N#Cc1c(Cl)c(Cl)c(Cl)c(C#N)c1Cl"	1
+"Clotrimazole"	"Clc1ccccc1C(c1ccccc1)(c1ccccc1)n1ccnc1"	1
+"Dicyclohexylcarbod iimide"	"C(=NC1CCCCC1)=NC1CCCCC1"	1
+"Diethyl maleate"	"CCOC(=O)C=CC(=O)OCC"	1
+"2-methoxy-5-propylphenol"	"CCCc1ccc(OC)c(O)c1"	1
+"Dimethyl Sulfate"	"COS(=O)(=O)OC"	1
+"Dimethyl sulfoxide"	"CS(C)=O"	1
+"Endo-tropine-3- mesylate"	"CN1C2CCC1CC(OS(C)(=O)=O)C2"	1
+"Ethyl 4-iodobenzoate"	"CCOC(=O)c1ccc(I)cc1"	1
+"1-(Prop-2-enoyloxy)-2-[(prop-2-enoyloxy)methyl]pentan-3-yl prop-2-enoate"	"C=CC(=O)OCC(COC(=O)C=C)C(CC)OC(=O)C=C"	1
+"Ethylenediamine"	"NCCN"	1
+"Farnesal"	"CC(C)=CCCC(C)=CCCC(C)=CC=O"	1
+"Geraniol"	"CC(C)=CCCC(C)=CCO"	1
+"Glutaraldehyde"	"O=CCCCC=O"	1
+"Glyceryl thioglycolate"	"O=C(CS)OCC(O)CO"	1
+"Glyoxal"	"O=CC=O"	1
+"Hydroxyethyl-ethylenediamine"	"NCCNCCO"	1
+"Imidazolidinyl urea"	"O=C(NCNC(=O)NC1C(=O)NC(=O)N1CO)NC1C(=O)NC(=O)N1CO"	1
+"Iodopropynyl butylcarbamate"	"CCCCNC(=O)OC#CCI"	1
+"5-(prop-1-en-1-yl)-2-(propan-2-yloxy)phenol"	"CC=Cc1ccc(OC(C)C)c(OC)c1"	1
+"Lauryl sulfate"	"CCCCCCCCCCCCOS(=O)(=O)O"	1
+"Linolenic acid"	"CCC=CCC=CCC=CCCCCCCCC(=O)O"	1
+"Methyl 4-(bromomethyl)benzoate"	"COC(=O)c1ccc(CBr)cc1"	1
+"Methyl dodecanesulfonate"	"CCCCCCCCCCCCS(=O)(=O)OC"	1
+"Methyl hexadecane sulfonate"	"CCCCCCCCCCCCCCCCS(=O)(=O)OC"	1
+"Methyl methanesulfonate"	"COS(C)(=O)=O"	1
+"Methyl pyruvate"	"COC(=O)C(C)=O"	1
+"Methyl(2-sulfomethyl)octadecanoate"	"CCCCCCCCCCCCCCCCC(CS(=O)(=O)O)C(=O)OC"	1
+"1,3-benzenedimethanamine"	"NCc1cccc(CN)c1"	1
+"N-(3,4-Dichlorophenyl)-n'- (1-methylethyl)- imidodicarbon-imidic diamide monohydrochloride"	"CC(C)N(C(=N)N)C(=N)Nc1ccc(Cl)c(Cl)c1"	1
+"N-[2-(Diethylamino)ethyl]-2-[[(4-fluorophenyl)-methyl]thio]-4,5,6,7-tetrahydro-4-oxo-n-[[4'-(trifluoromethyl)-[1,1'-biphenyl]-4-yl]methyl]-1h-cyclopentapyrim-idine-1-acetamide"	"CCN(CC)CCN(Cc1ccc(-c2ccc(C(F)(F)F)cc2)cc1)C(=O)Cn1c(SCc2ccc(F)cc2)nc(=O)c2c1CCC2"	1
+"N-Ethyl-N-nitrosourea"	"CCN(N=O)C(N)=O"	1
+"N-Isopropyl-n-phenyl-2-(2-phenylamino-phenylamino)-acetamide"	"CC(C)N(C(=O)CNc1ccccc1Nc1ccccc1)c1ccccc1"	1
+"N-Methyl-N-nitrosourea"	"CN(N=O)C(N)=O"	1
+"Oleyl methanesulfonate"	"CCCCCCCCC=CCCCCCCCCOS(C)(=O)=O"	1
+"Oripavine"	"COC1=CC=C2C3Cc4ccc(O)c5c4C2(CCN3C)C1O5"	1
+"Oxalic acid"	"O=C(O)C(=O)O"	1
+"2,3-Dihydro-1,3-oxazol-2-one"	"O=c1[nH]cco1"	1
+"Penicillin G"	"CC1(C)SC2C(NC(=O)Cc3ccccc3)C(=O)N2C1C(=O)O"	1
+"Pentachlorophenol"	"Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl"	1
+"Perillaldehyde"	"C=C(C)C1CC=C(C=O)CC1"	1
+"Phenylacetaldehyde"	"O=CCc1ccccc1"	1
+"p-Methylhydrocinnamic aldehyde"	"Cc1ccc(CCC=O)cc1"	1
+"p-tert-Butyl-a-ethyl-hydrocinnamal"	"CC(C=O)Cc1ccc(C(C)(C)C)cc1"	1
+"p-tert-Butylphenyl Glycidyl Ether"	"CC(C)(C)c1ccc(OCC2CO2)cc1"	1
+"Pyridine"	"c1ccncc1"	1
+"R-Carvone"	"C=C(C)C1CC=C(C)C(=O)C1"	1
+"(3R,3aS,6aR)-Hexahydrofuro[2,3-b]furan-3-yl 4-nitrophenyl carbonate"	"O=C(Oc1ccc([N+](=O)[O-])cc1)OC1COC2OCCC12"	1
+"Sodium ethyl xanthate"	"CCOC(=S)S"	1
+"Sodium lauroyl lactylate"	"CCCCCCCCCCCC(=O)OC(C)C(=O)OC(C)C(=O)O"	1
+"Sodium-3,3,5-trimethyl-benzenesulfonate"	"CC(CC(=O)Oc1ccc(S(=O)(=O)O)cc1)CC(C)(C)C"	1
+"Squalene"	"CC(C)=CCCC(C)=CCCC(C)=CCCC=C(C)CCC=C(C)CCC=C(C)C"	1
+"Tetramethyl thiuram disulfide"	"CN(C)C(=S)SSC(=S)N(C)C"	1
+"Trifluralin"	"CCCN(CCC)c1c([N+](=O)[O-])cc(C(F)(F)F)cc1[N+](=O)[O-]"	1
+"Undec-10-enal"	"C=CCCCCCCCCC=O"	1
+"Vinylpyridine"	"C=Cc1ccncc1"	1
+"8-[(4-Amino-3-nitrophenyl)azo]-7-hydroxy-N,N,N-trimethyl-2-naphthalenaminium chloride (Basic brown 17, B007) (SCCP0683/03)"	"C[N+](C)(C)c1ccc2c(c1)C(=NNc1ccc(N)c([N+](=O)[O-])c1)C(=O)C=C2"	0
+"Ethyl (2-(4-chlorophenoxy)-2-methylpropanoate"	"CCOC(=O)C(C)(C)Oc1ccc(Cl)cc1"	0
+"Nonanoic acid"	"CCCCCCCCC(=O)O"	0
+"Streptomycin sulfate"	"CNC1C(OC2C(OC3C(O)C(O)C(NC(=N)N)C(O)C3NC(=N)N)OC(C)C2(O)C=O)OC(CO)C(O)C1O"	0
+"1,2-cyclohexane dicarboxylic anhydride"	"O=C1OC(=O)C2CCCCC12"	1
+"3-Methyl catechol"	"Cc1cccc(O)c1O"	1
+"4-Aminocresol; 3-methyl-4-aminophenol (SCCP/0898/05) "	"Cc1cc(O)ccc1N"	1
+"4-Carboxyphenylacetate"	"O=C(O)Cc1ccc(C(=O)O)cc1"	1
+"5-methyl-2-phenyl-2,4-dihydro-pyrazol-3-one (Phenylmethylpyrazole;  A039)"	"Cc1cc(=O)n(-c2ccccc2)[nH]1"	1
+"Benzoyl peroxide"	"O=C(OOC(=O)c1ccccc1)c1ccccc1"	1
+"Diphenylcyclopropenone"	"O=c1c(-c2ccccc2)c1-c1ccccc1"	1
+"Disperse Violet 1 (1,4-diamino-9,10-anthracenedione)"	"Nc1ccc(N)c2c1C(=O)c1ccccc1C2=O"	1
+"HC Red 13"	"Nc1ccc(N(CO)CCO)cc1[N+](=O)[O-]"	1
+"Maleic anhydride"	"O=C1C=CC(=O)O1"	1
+"N,N-dimethyl-4-nitrosoaniline"	"CN(C)c1ccc(N=O)cc1"	1
+"Phthalic anhydride"	"O=C1OC(=O)c2ccccc21"	1
+"Propyl gallate"	"CCCOC(=O)c1cc(O)c(O)c(O)c1"	1
+"Squaric acid"	"O=c1c(O)c(O)c1=O"	1
