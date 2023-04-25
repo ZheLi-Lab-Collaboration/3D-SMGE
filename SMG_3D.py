@@ -360,7 +360,7 @@ def get_model(args, parallelize=False):
                  cutoff=args.cutoff,
                  n_gaussians=args.num_gaussians,
                  max_z=100,
-                 caFilter_per_block=4)
+                 caFilter_per_block=args.caFilter_per_block)
 
 
 
