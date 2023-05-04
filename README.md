@@ -86,13 +86,13 @@ During the generating molecules, we provide three scaffold input formats and two
     python SMG_3D.py generate 3D_SMG ./model/ 100 --functional_group 'CC(C1=CC=C(OC)C(OC)=C1)=O' --genMode mode1 --inputFormat smiles --chunk_size 100 --cuda --max_length 60 --file_name scaffold
     ```
 
-  * PDB input format:
+  * PDB input format (re-saved as a.pdb file through Discover Studio, Maestroo, *etal.*):
 
     ```shell
     python SMG_3D.py generate 3D_SMG ./model/ 100 --genMode mode1 --inputFormat pdb --file3D_path ./pdb_luo.pdb --chunk_size 100 --cuda --max_length 60 --file_name scaffold
     ```
 
-  * mol2 input format:
+  * mol2 input format (re-saved as .mol2 file through Discover Studio, Maestro, *etal.*):
 
     ```shell
     python SMG_3D.py generate 3D_SMG ./model/ 100 --genMode mode1 --inputFormat mol2 --file3D_path ./pdb_luo.mol2 --chunk_size 100 --cuda --max_length 60 --file_name scaffold
@@ -124,7 +124,7 @@ During the generating molecules, we provide three scaffold input formats and two
             print("\n")
     ```
 
-  * PDB input format:
+  * PDB input format (re-saved as .pdb file through Discover Studio, Maestro, *etal.*):
 
     ```shell
     python SMG_3D.py generate 3D_SMG ./model/ 100 --genMode mode2 --inputFormat pdb --file3D_path ./pdb_luo.pdb --chunk_size 100 --cuda --max_length 60 --file_name scaffold
@@ -134,7 +134,7 @@ During the generating molecules, we provide three scaffold input formats and two
 
     ![mode2_PDB](./img/mode2_PDB.png)
 
-  * mol2 input format:  
+  * mol2 input format (re-saved as .mol2 file through Discover Studio, Maestro, *etal.*):  
 
     ```shell
     python SMG_3D.py generate 3D_SMG ./model/ 100 --genMode mode2 --inputFormat mol2 --file3D_path ./pdb_luo.mol2 --chunk_size 100 --cuda --max_length 60 --file_name scaffold
