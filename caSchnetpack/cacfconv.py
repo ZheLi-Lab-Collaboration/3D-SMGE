@@ -38,6 +38,7 @@ class CACFConv(nn.Module):
         n_filters,
         n_out,
         ca_filter_nn,
+        atomBase_network,
         activation=None,
         cutoff_network=None,
         normalize_filter=False,
@@ -47,6 +48,7 @@ class CACFConv(nn.Module):
         self.in2f = Dense(128, n_filters, bias=False, activation=None)
 
 
+        self.atomBase_network = atomBase_network
         self.feature_out = Dense(n_filters, n_out, bias=True, activation=activation)
 
 
@@ -96,7 +98,7 @@ class CACFConv(nn.Module):
         # reshape y for element-wise multiplication by W
         nbh_size = neighbors.size()
         nbh = neighbors.view(-1, nbh_size[1] * nbh_size[2], 1)
-     
+        # 保持前两个维度
         nbh = nbh.expand(-1, -1, y.size(2))
 
         y = torch.gather(y, 1, nbh)

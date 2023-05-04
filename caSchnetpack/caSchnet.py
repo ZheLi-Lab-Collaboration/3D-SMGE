@@ -17,8 +17,8 @@ from loguru import logger
 
 from caSchnetpack.DGA_Module.caFilter import CFCA_module
 from caSchnetpack.activationFunction.dy_relu import DyReLUA
-# from caSchnetpack.base_Feature.atomFE import atomEF
-# from caSchnetpack.base_Feature.atomFE_lstm import atomEF_lstm
+from caSchnetpack.base_Feature.atomFE import atomEF
+from caSchnetpack.base_Feature.atomFE_lstm import atomEF_lstm
 from caSchnetpack.cacfconv import CACFConv
 from caSchnetpack.activationFunction.dy_relu_F import dy_relu_F
 from caSchnetpack.activationFunction.acf_gelus import gelus_gt2_fun
@@ -35,8 +35,8 @@ class caSchNetInEx(nn.Module):
             of neighbors over which convolution is applied.
 
 
-        default n_filters 128
-        n_atom_basia 128
+    默认的 n_filters为128
+     n_atom_basis也为128
     """
     #
     # n_atom_basis = n_atom_basis,
@@ -58,7 +58,8 @@ class caSchNetInEx(nn.Module):
         n_spatial_basis,
         caFilter_per_block,
         module_name,
-
+        atomFE_in,
+        atomFE_out,
         cutoff,
         cutoff_network=HardCutoff,
         normalize_filter=False,
@@ -73,9 +74,9 @@ class caSchNetInEx(nn.Module):
 
         self.ca_filter_nn = CFCA_module(n_filter_in, n_filters, n_filters, n_spatial_basis, caFilter_per_block, module_name=module_name)
 
-        # self.baseAtom_nn = atomEF_lstm(n_atom_basis, atomFE_out)
+        self.baseAtom_nn = atomEF_lstm(n_atom_basis, atomFE_out)
         #
-        # self.dyRelu = DyReLUA(channels=atomFE_out, conv_type="1d")
+        self.dyRelu = DyReLUA(channels=atomFE_out, conv_type="1d")
         # cutoff layer used in interaction block
         self.cutoff_network = cutoff_network(cutoff)
         # interaction block
@@ -83,6 +84,7 @@ class caSchNetInEx(nn.Module):
             n_filters=n_filters,
             n_out=n_atom_basis,
             activation=gelus_gt2_fun,
+            atomBase_network=self.baseAtom_nn,
             ca_filter_nn=self.ca_filter_nn,
             cutoff_network=self.cutoff_network,
             normalize_filter=normalize_filter,
@@ -165,6 +167,8 @@ class caSchNet(nn.Module):
         cutoff=5.0,
         n_gaussians=25,
         caFilter_per_block=3,
+        atomFE_in=128,
+        atomFE_out=128,
         normalize_filter=False,
         coupled_interactions=False,
         return_intermediate=False,
@@ -206,7 +210,8 @@ class caSchNet(nn.Module):
                         module_name=module_name,
                         n_spatial_basis=n_gaussians,
                         cutoff_network=cutoff_network,
-
+                        atomFE_in=atomFE_in,
+                        atomFE_out=atomFE_out,
                         cutoff=cutoff,
                         normalize_filter=normalize_filter,
                     )
@@ -225,7 +230,8 @@ class caSchNet(nn.Module):
                         module_name=module_name,
                         n_spatial_basis=n_gaussians,
                         cutoff_network=cutoff_network,
-
+                        atomFE_in=atomFE_in,
+                        atomFE_out=atomFE_out,
                         cutoff=cutoff,
                         normalize_filter=normalize_filter,
                     )
@@ -235,7 +241,7 @@ class caSchNet(nn.Module):
 
         # set attributes
         self.return_intermediate = return_intermediate
-        # self.atomEF = atomEF(atomFE_in, atomFE_out)
+        self.atomEF = atomEF(atomFE_in, atomFE_out)
         self.charged_systems = charged_systems
         if charged_systems:
             self.charge = nn.Parameter(torch.Tensor(1, n_atom_basis))
@@ -255,23 +261,30 @@ class caSchNet(nn.Module):
         """
         # get tensors from input dictionary
         atomic_numbers = inputs[Properties.Z]
+        # print("atomic_numbers", atomic_numbers)
+        # print("atomic_numbers size", atomic_numbers.size())
 
         positions = inputs[Properties.R]
-     
+        # print("positions", positions)
+        # print("positions size", positions.size())
         cell = inputs[Properties.cell]
         cell_offset = inputs[Properties.cell_offset]
         neighbors = inputs[Properties.neighbors]
-      
-      
+        # print("neighbors", neighbors)
+        # print("neighbors size", neighbors.size())
+        # 这里的mask是cfconv里边的那个mask
         neighbor_mask = inputs[Properties.neighbor_mask]
-
+        # print("neighbor_mask", neighbor_mask)
+        # print("neighbor_mask size", neighbor_mask.size())
 
         atom_mask = inputs[Properties.atom_mask]
-
+        # print("inputs", inputs)
+        # print("inputs size", len(inputs))
 
         # get atom embeddings for the input atomic numbers
         x = self.embedding(atomic_numbers)  #[25, 64, 128]
-  
+        # print("embedding x", x)
+        # print("embedding x", x.size())
 
 
         if False and self.charged_systems and Properties.charge in inputs.keys():
@@ -284,11 +297,13 @@ class caSchNet(nn.Module):
         r_ij = self.distances(   # [25, 64, 63]
             positions, neighbors, cell, cell_offset, neighbor_mask=neighbor_mask
         )
-
+        # print("r_ij", r_ij)
+        # print("r_ij size", r_ij.size())
         # logger.info("schnet r_ij:" + r_ij)
         # expand interatomic distances (for example, Gaussian smearing)
         f_ij = self.distance_expansion(r_ij)  # [25, 64, 63, 25]
-  
+        # print(f_ij)
+        # print("f_ij.size()", f_ij.size())
         # logger.info("schnet f_ij:" + f_ij)
         # store intermediate representations
         if self.return_intermediate:
@@ -300,7 +315,7 @@ class caSchNet(nn.Module):
             x = x + v
             if self.return_intermediate:
                 xs.append(x)
-
+        # print("caSchent return x",x)
         if self.return_intermediate:
             return x, xs
         return x

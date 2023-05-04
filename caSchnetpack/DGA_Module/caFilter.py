@@ -19,28 +19,55 @@ def convDense_base(in_channels, out_channels,  module_name, postfix, n_gaussians
     """postfix == 1, add maxpooling(3,1,1)"""
     if postfix == 0:
         return [
+            # ('{}_{}/conv'.format(module_name, postfix),
+            #     nn.Conv1d(n_gaussians, out_channels,
+            #               kernel_size=kernel_size,
+            #               stride=stride,
+            #               padding=padding,
+            #               groups=groups,
+            #               bias=False)),
             ('{}_{}/conv'.format(module_name, postfix),
                 Dense(n_gaussians, out_channels, bias=True)
              ),
-            ('{}_{}/gelu'.format(module_name, postfix),
+            # ('{}_{}/norm'.format(module_name, postfix),
+            #     nn.BatchNorm2d(out_channels)),
+            ('{}_{}/dy_relu'.format(module_name, postfix),
                 gelus_gt2()),
         ]
     elif postfix == 2:
         return [
-
+            # ('{}_{}/conv'.format(module_name, postfix),
+            #     nn.Conv1d(in_channels, out_channels,
+            #               kernel_size=kernel_size,
+            #               stride=stride,
+            #               padding=padding,
+            #               groups=groups,
+            #               bias=False)),
             ('{}_{}/conv'.format(module_name, postfix),
              Dense(in_channels, out_channels, bias=True)
              ),
-            ('{}_{}/gelu'.format(module_name, postfix),
+            # ('{}_{}/norm'.format(module_name, postfix),
+            #     nn.BatchNorm2d(out_channels)),
+            ('{}_{}/dy_relu'.format(module_name, postfix),
+                # DyReLUA(out_channels, conv_type="2d")
              gelus_gt2()),
             ('{}_{}/maxpooling'.format(module_name, postfix),
                 nn.MaxPool2d(kernel_size=kernel_size, stride=stride, padding=padding))
         ]
     else:
         return [
+            # ('{}_{}/conv'.format(module_name, postfix),
+            #  nn.Conv1d(in_channels, out_channels,
+            #            kernel_size=kernel_size,
+            #            stride=stride,
+            #            padding=padding,
+            #            groups=groups,
+            #            bias=False)),
             ('{}_{}/conv'.format(module_name, postfix),
              Dense(in_channels, out_channels, bias=True)
              ),
+            # ('{}_{}/norm'.format(module_name, postfix),
+            #  nn.BatchNorm2d(out_channels)),
             ('{}_{}/dy_relu'.format(module_name, postfix),
              gelus_gt2()),
         ]
@@ -48,13 +75,24 @@ def convDense_base(in_channels, out_channels,  module_name, postfix, n_gaussians
 
 
 def convDense_contact(in_channels, out_channels, module_name, postfix,
-            ):
+            stride=1, groups=1, kernel_size=1, padding=0):
 
     """1x1 convolution"""
     return [
+        # ('{}_{}/conv'.format(module_name, postfix),
+        #     nn.Conv1d(in_channels, out_channels,
+        #               kernel_size=kernel_size,
+        #               stride=stride,
+        #               padding=padding,
+        #               groups=groups,
+        #               bias=False)),
         ('{}_{}/conv'.format(module_name, postfix),
          Dense(in_channels, out_channels, )
          ),
+        # ('{}_{}/norm'.format(module_name, postfix),
+        #     nn.BatchNorm2d(out_channels)),
+        # ('{}_{}/dy_relu'.format(module_name, postfix),
+        #     DyReLUA(out_channels, conv_type="1d")),
     ]
 
 class CFCA_module(nn.Module):

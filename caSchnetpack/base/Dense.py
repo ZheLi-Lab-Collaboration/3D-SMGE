@@ -67,5 +67,5 @@ class Dense(nn.Linear):
 
 
 def l2_regular(x):
-    # l2 normal
+    # norm 正则 0.001为惩罚项
     return 0.001 * torch.norm(x)

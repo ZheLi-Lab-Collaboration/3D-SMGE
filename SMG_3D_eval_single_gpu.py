@@ -97,7 +97,7 @@ def get_parser():
                                    'directory')
     train_parser.add_argument('modelpath',
                               help='Destination for models and logs')
-    train_parser.add_argument('--dataset_name', type=str, default='SMG3D',
+    train_parser.add_argument('--dataset_name', type=str, default='SMG_3D',
                               help=f'Name of the dataset used (choose from '
                                    f'{list(dataset_name_to_class_mapping.keys())}, '
                                    f'default: %(default)s)'),
