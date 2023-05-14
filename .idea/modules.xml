@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/3D-SDGE.iml" filepath="$PROJECT_DIR$/.idea/3D-SDGE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/3D-SMGE.iml" filepath="$PROJECT_DIR$/.idea/3D-SMGE.iml" />
     </modules>
   </component>
 </project>

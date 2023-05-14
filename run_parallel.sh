@@ -18,7 +18,7 @@ torchrun --standalone --nnodes=1 --nproc_per_node=1 SMGE_3D_eval_single_gpu.py e
 
 # model generate
 
-torchrun --standalone --nnodes=1 --nproc_per_node=1 SMGE_3D_eval_single_gpu.py generate 3D_SMG ./model/ 200 --functional_group 'CC(C1=CC=C(OC)C(OC)=C1)=O' --chunk_size 2000 --cuda --max_length 65 --file_name scaffold
+torchrun --standalone --nnodes=1 --nproc_per_node=1 SMGE_3D_eval_single_gpu.py generate 3D_SMG ./model/ 200 --scaffold 'CC(C1=CC=C(OC)C(OC)=C1)=O' --chunk_size 2000 --cuda --max_length 65 --file_name scaffold
 
 
 # filter 

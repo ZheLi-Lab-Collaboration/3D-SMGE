@@ -183,7 +183,7 @@ def get_parser():
     gen_parser.add_argument('amount_gen', type=int,
                             help='The amount of generated molecules')
     # The scaffold of a molecule
-    gen_parser.add_argument('--functional_group', help='Desired functional group to generate molecules')
+    gen_parser.add_argument('--scaffold', help='Desired functional group to generate molecules')
 
     gen_parser.add_argument('--show_gen',
                             help='Whether to open plots of generated '
@@ -619,7 +619,7 @@ def generate(args, train_args, model, device, gen_):
                         generate_molecules(
                             amount=batch,
                             model=model,
-                            functional_group=args.functional_group,
+                            scaffold=args.scaffold,
                             have_finished_input=args.have_finished,
                             file3D_path=args.file3D_path,
                             genMode=args.genMode,

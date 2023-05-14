@@ -717,9 +717,9 @@ def get_random_walk(mol_dict, stop_token=10, seed=None):
     order = torch.tensor(order)
     pred_types = torch.tensor(pred_types)
     ###################################################
-    #functional_group_atoms = pred_types.tolist()[0:5]
-    #target_functional_group_atoms = [6,6,6,7,8]
-    #if sorted(functional_group_atoms) == sorted(target_functional_group_atoms):
+    #scaffold_atoms = pred_types.tolist()[0:5]
+    #target_scaffold_atoms = [6,6,6,7,8]
+    #if sorted(scaffold_atoms) == sorted(target_scaffold_atoms):
     #    logging.info("Functional group matched : Yes")
     #else:
     #    logging.info("Functional group matched : No")
@@ -1148,7 +1148,7 @@ def get_default_neighbors(n_atoms):
 
 def generate_molecules(amount,
                        model,
-                       functional_group,
+                       scaffold,
                        have_finished_input,
                        file3D_path,
                        genMode="mode1",
@@ -1229,14 +1229,14 @@ def generate_molecules(amount,
         elif inputFormat == "mol2":
             atomic_numbers_fg, coordinates_fg = normal_mol2(file3D_path)
         else:
-            atomic_numbers_fg, coordinates_fg = smiles_to_xyz(functional_group) # calculating atom numbers and coordinates of the functional groupusing RdKit
+            atomic_numbers_fg, coordinates_fg = smiles_to_xyz(scaffold) # calculating atom numbers and coordinates of the functional groupusing RdKit
     elif genMode == "mode2":
         if inputFormat == "pdb":
             atomic_numbers_fg, coordinates_fg, have_finished_input = specific_site_pdb(file3D_path)
         elif inputFormat == "mol2":
             atomic_numbers_fg, coordinates_fg, have_finished_input = specific_site_mol2(file3D_path)
         else:
-            atomic_numbers_fg, coordinates_fg = smiles_to_xyz(functional_group)  # calculating atom numbers and coordinates of the functional groupusing RdKit
+            atomic_numbers_fg, coordinates_fg = smiles_to_xyz(scaffold)  # calculating atom numbers and coordinates of the functional groupusing RdKit
 
     coordinates_fg = torch.FloatTensor(coordinates_fg)
     #logging.info("######## before #######")
