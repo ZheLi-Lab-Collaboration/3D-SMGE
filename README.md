@@ -83,7 +83,7 @@ During the generating molecules, we provide three scaffold input formats and two
   * SMILES input format:
 
     ```shell
-    python SMG_3D.py generate 3D_SMG ./model/ 100 --functional_group 'CC(C1=CC=C(OC)C(OC)=C1)=O' --genMode mode1 --inputFormat smiles --chunk_size 100 --cuda --max_length 60 --file_name scaffold
+    python SMG_3D.py generate 3D_SMG ./model/ 100 --scaffold 'CC(C1=CC=C(OC)C(OC)=C1)=O' --genMode mode1 --inputFormat smiles --chunk_size 100 --cuda --max_length 60 --file_name scaffold
     ```
 
   * PDB input format (re-saved as a.pdb file through Discover Studio, Maestroo, *etal.*):
@@ -103,7 +103,7 @@ During the generating molecules, we provide three scaffold input formats and two
   * SMILES input format:  
 
     ```shell
-    python SMG_3D.py generate 3D_SMG ./model/ 100 --functional_group 'CC(C1=CC=C(OC)C(OC)=C1)=O' --genMode mode2 --have_finished  1 2 3 4 6 7 8 9 10 11 12 13 --inputFormat smiles --chunk_size 100 --cuda --max_length 60 --file_name scaffold
+    python SMG_3D.py generate 3D_SMG ./model/ 100 --scaffold 'CC(C1=CC=C(OC)C(OC)=C1)=O' --genMode mode2 --have_finished  1 2 3 4 6 7 8 9 10 11 12 13 --inputFormat smiles --chunk_size 100 --cuda --max_length 60 --file_name scaffold
     ```
 
     If you choose the SMILES input format with second generation mode,  you are supposed to determine the specific positions of the scaffold,  then use the `Rdkit` to figure out the positions of scaffold.  The  implementation is as follows. --have_finshed represents which positions are not required for molecular generation.
