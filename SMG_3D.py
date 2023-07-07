@@ -30,7 +30,7 @@ from utility_functions import boolean_string, collate_atoms, generate_molecules,
 # add your own dataset classes here:
 from SMG_3D_data import SMG_3Dgen
 from loguru import logger
-dataset_name_to_class_mapping = {'scaffold3D': SMG_3Dgen}
+dataset_name_to_class_mapping = {'SMG_3D': SMG_3Dgen}
 
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 
