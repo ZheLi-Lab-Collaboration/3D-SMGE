@@ -208,7 +208,7 @@ You are supposed to unzip the dataset file and put it in `./data/` for training.
 
 You are supposed to unzip the weights file and put it in the root directory for  evaluating, testing model and generating molecues.
 
-<u>**[3D-SMG Model Weights](https://drive.google.com/file/d/1fihfLW6R3yKxZaYkNIvC8qDZIWohX_B4/view?usp=sharing)**</u>
+<u>**[3D-SMG Model Weights](https://drive.google.com/file/d/14c65EiA8gWlGhIxEyHtlp-NL68qDqN7P/view?usp=drive_link)**</u>
 
 ## Citation
 
