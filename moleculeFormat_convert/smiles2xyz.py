@@ -3,8 +3,7 @@
 # @Author  : TkiChus
 # @Email   : XU.Chao.TkiChus@gmail.com
 
-# gen3d = openbabel.OBOp.FindType("gen3D")
-# gen3d.Do(mymol.OBMol, "--best")
+
 import numpy as np
 # from molecule import pybel, GetSymbol
 
@@ -21,10 +20,6 @@ except ImportError:
 def generate_conformations_from_openbabel(smiles, num_conf, ob_gen3D_option='best'):
     # initialize obmol
     obmol = pybel.readstring('smi', smiles).OBMol
-
-    obmol.AddHydrogens()
-    obmol.DeleteHydrogens()
-
 
     # initial geometry
     gen3D = pybel.ob.OBOp.FindType("gen3D")
@@ -46,6 +41,7 @@ def extract_from_obmol(mol, ) -> tuple([list, np.array, np.ndarray, np.ndarray])
     atom_atomic_number_dict = {"H": 1, "C": 6, "N": 7, "O": 8, "F": 9, "Cl": 17, 'S': 16}
 
     py_mol = pybel.Molecule(mol)
+    py_mol.localopt(forcefield='mmff94', steps=50)
     elements = [GetSymbol(atom.atomicnum) for atom in py_mol.atoms]
     charges = np.array([atom.formalcharge for atom in py_mol.atoms])
 

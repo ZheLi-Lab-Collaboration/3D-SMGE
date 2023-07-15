@@ -3,8 +3,7 @@
 # @Author  : TkiChus
 # @Email   : XU.Chao.TkiChus@gmail.com
 
-""" ADMET property prediction in DL """
-
+""" ADMET property prediction in ML """
 
 from rdkit.Chem import AllChem
 from tdc.benchmark_group import admet_group
@@ -30,8 +29,14 @@ from sklearn.linear_model import BayesianRidge
 
 import pickle
 import os
-from sklearn.model_selection import RepeatedKFold
+from sklearn.model_selection import RepeatedKFold, KFold
+from sklearn.model_selection import LeaveOneOut
 from sklearn.model_selection import cross_val_score
+
+# the custom function of evaluation score
+from Score import ADMET_score
+
+
 
 # the folder of save model
 save_file_dir = ""
@@ -147,24 +152,22 @@ for i, (v_d, label) in enumerate(test_generator):
     # print("label", label)
 
 data_test = np.asarray(data_test)
-print(data_test.shape)
 
-
-print(data_train.shape)
-
-print(type(data_train))
 print(train_val_encode["drug_encoding"])
 "-----------------------------------------------------------------------------------------------------------"
 
-""" find the optimal params"""
+""" example of find the optimal params"""
 max_depth = list(range(20, 201, 10))
 n_trees = list(range(100, 801, 10))
 n_estimators = list(range(2, 11))
 
+# example of grid parameters, you change it according to
 grid_param = {'n_trees': n_trees,
               'max_depth': max_depth,
               'n_estimators': n_estimators,
               'predictor': ['forest', 'xgboost', 'lightgbm']}
+
+k_fold = KFold(n_splits=5)
 
 """you can choose the optimal model whether classification or regression to train and get the optimal result """
 # model = CascadeForestRegressor(random_state=1, max_depth=200, n_trees=50, predictor="xgboost")
@@ -179,6 +182,7 @@ model = BayesianRidge()
 ### fps_encode train
 # model.fit(fps_train_total, train_val.Y)
 # pred = model.predict(fps_test_total)
+
 
 ### TDC encode train
 model.fit(data_train, train_val.Y)
@@ -201,7 +205,9 @@ pred = evaluator(test.Y, pred)
 print(pred)
 print(r2, error)
 
-"""print the optimal parameters """
+
+
+"""example print the optimal parameters """
 # print(Bayes.best_params_)
 # #score achieved with best parameter combination
 # print(Bayes.best_score_)
