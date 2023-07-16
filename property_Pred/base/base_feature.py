@@ -64,10 +64,11 @@ def cal_baseFeature(input_smiles_path, final_result_path):
     list_NHD = []
     list_NRB = []
     list_NAR = []
+    list_molWt = []
 
     for i in range(smiles_data.shape[0]):
         mol = Chem.MolFromSmiles(smiles_data[i])
-        des_list = ['MolLogP', 'qed', 'TPSA', 'NumHAcceptors', 'NumHDonors', 'NumRotatableBonds', 'NumAliphaticRings']
+        des_list = ['MolLogP', 'qed', 'TPSA', 'NumHAcceptors', 'NumHDonors', 'NumRotatableBonds', 'NumAliphaticRings', 'MolWt']
         calculator = MoleculeDescriptors.MolecularDescriptorCalculator(des_list)
         list_single = calculator.CalcDescriptors(mol)
         sa_scores = sa_score(mol)
@@ -80,6 +81,8 @@ def cal_baseFeature(input_smiles_path, final_result_path):
         list_NRB.append(list_single[5])
         list_NAR.append(list_single[6])
         list_sa.append(sa_scores)
+        list_molWt.append(list_single[7])
+
     data["MolLogP"] = list_logP
     data["QED"] = list_qed
     data["SA Score"] = list_sa
@@ -88,6 +91,7 @@ def cal_baseFeature(input_smiles_path, final_result_path):
     data["NumHDonors"] = list_NHD
     data["NumRotatableBonds"] = list_NRB
     data["NumAliphaticRings"] = list_NAR
+    data["MolWt"] = list_molWt
 
     data.to_csv(final_result_path, mode="a", index=False)
     print("----achieved!!!")

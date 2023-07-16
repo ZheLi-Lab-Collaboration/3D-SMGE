@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e31e80f-f339-464e-84d1-c624e7625bf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dbData_processing/batch_smi2xyz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbData_processing/extract_pos_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/property_Pred/ADMET/general_admet/Score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moleculeFormat_convert/smiles2xyz.py" beforeDir="false" afterPath="$PROJECT_DIR$/moleculeFormat_convert/smiles2xyz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/property_Pred/ADMET/general_admet/ml-admet-train.py" beforeDir="false" afterPath="$PROJECT_DIR$/property_Pred/ADMET/general_admet/ml-admet-train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/property_Pred/base/base_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/property_Pred/base/base_feature.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +114,8 @@
       <workItem from="1685154521146" duration="592000" />
       <workItem from="1687863862276" duration="3829000" />
       <workItem from="1687871406744" duration="587000" />
-      <workItem from="1689129752094" duration="33782000" />
+      <workItem from="1689129752094" duration="34418000" />
+      <workItem from="1689433675853" duration="890000" />
     </task>
     <servers />
   </component>
