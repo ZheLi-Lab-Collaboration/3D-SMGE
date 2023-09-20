@@ -2,7 +2,7 @@
 
 > In a typical circumstance (0: non-activity; 1: activity).  In toxicity prediction(0: non-toxicity; 1: toxicity)
 
-### Caco-2 (Cell Effective Permeability), Wang et al.
+### Caco-2 (Cell Effective Permeability), Wang *et al.*
 
 **Dataset Description:** The human colon epithelial cancer cell line, Caco-2, is used as an in vitro model to simulate the human intestinal tissue. The experimental result on the rate of drug passing through the Caco-2 cells can approximate the rate at which the drug permeates through the human intestinal tissue.
 
@@ -10,7 +10,7 @@
 
 
 
-### HIA (Human Intestinal Absorption), Hou et al.
+### HIA (Human Intestinal Absorption), Hou *et al.*
 
 **Dataset Description:** When a drug is orally administered, it needs to be absorbed from the human gastrointestinal system into the bloodstream of the human body. This ability of absorption is called human intestinal absorption (HIA) and it is crucial for a drug to be delivered to the target.
 
@@ -18,7 +18,7 @@
 
 
 
-### Pgp (P-glycoprotein) Inhibition, Broccatelli et al.
+### Pgp (P-glycoprotein) Inhibition, Broccatelli *et al.*
 
 **Dataset Description:** P-glycoprotein (Pgp) is an ABC transporter protein involved in intestinal absorption, drug metabolism, and brain penetration, and its inhibition can seriously alter a drug's bioavailability and safety. In addition, inhibitors of Pgp can be used to overcome multidrug resistance.
 
@@ -26,7 +26,7 @@
 
 
 
-### Bioavailability, Ma et al.
+### Bioavailability, Ma *et al.*
 
 **Dataset Description:** Oral bioavailability is defined as “the rate and extent to which the active ingredient or active moiety is absorbed from a drug product and becomes available at the site of action”.
 
@@ -50,7 +50,7 @@
 
 
 
-### BBB (Blood-Brain Barrier), Martins et al.
+### BBB (Blood-Brain Barrier), Martins *et al.*
 
 **Dataset Description:** As a membrane separating circulating blood and brain extracellular fluid, the blood-brain barrier (BBB) is the protection layer that blocks most foreign drugs. Thus the ability of a drug to penetrate the barrier to deliver to the site of action forms a crucial challenge in development of drugs for central nervous system From MoleculeNet.
 
@@ -66,7 +66,7 @@
 
 
 
-### VDss (Volumn of Distribution at steady state), Lombardo et al.
+### VDss (Volumn of Distribution at steady state), Lombardo *et al.*
 
 **Dataset Description:** The volume of distribution at steady state (VDss) measures the degree of a drug's concentration in body tissue compared to concentration in blood. Higher VD indicates a higher distribution in the tissue and usually indicates the drug with high lipid solubility, low plasma protein binidng rate.
 
@@ -74,7 +74,7 @@
 
 
 
-### CYP P450 2C19 Inhibition, Veith et al.
+### CYP P450 2C19 Inhibition, Veith *et al.*
 
 **Dataset Description:** The CYP P450 genes are essential in the breakdown (metabolism) of various molecules and chemicals within cells. A drug that can inhibit these enzymes would mean poor metabolism to this drug and other drugs, which could lead to drug-drug interactions and adverse effects. Specifically, the CYP2C19 gene provides instructions for making an enzyme called the endoplasmic reticulum, which is involved in protein processing and transport.
 
@@ -82,7 +82,7 @@
 
 
 
-### CYP P450 2D6 Inhibition, Veith et al.
+### CYP P450 2D6 Inhibition, Veith *et al.*
 
 **Dataset Description:** The CYP P450 genes are involved in the formation and breakdown (metabolism) of various molecules and chemicals within cells. Specifically, CYP2D6 is primarily expressed in the liver. It is also highly expressed in areas of the central nervous system, including the substantia nigra.
 
@@ -90,7 +90,7 @@
 
 
 
-### CYP P450 3A4 Inhibition, Veith et al.
+### CYP P450 3A4 Inhibition, Veith *et al.*
 
 **Dataset Description:** The CYP P450 genes are involved in the formation and breakdown (metabolism) of various molecules and chemicals within cells. Specifically, CYP3A4 is an important enzyme in the body, mainly found in the liver and in the intestine. It oxidizes small foreign organic molecules (xenobiotics), such as toxins or drugs, so that they can be removed from the body.
 
@@ -98,7 +98,7 @@
 
 
 
-### CYP P450 1A2 Inhibition, Veith et al.
+### CYP P450 1A2 Inhibition, Veith *et al.*
 
 **Dataset Description:** The CYP P450 genes are involved in the formation and breakdown (metabolism) of various molecules and chemicals within cells. Specifically, CYP1A2 localizes to the endoplasmic reticulum and its expression is induced by some polycyclic aromatic hydrocarbons (PAHs), some of which are found in cigarette smoke. It is able to metabolize some PAHs to carcinogenic intermediates. Other xenobiotic substrates for this enzyme include caffeine, aflatoxin B1, and acetaminophen.
 
@@ -106,7 +106,7 @@
 
 
 
-### CYP P450 2C9 Inhibition, Veith et al.
+### CYP P450 2C9 Inhibition, Veith *et al.*
 
 **Dataset Description:** The CYP P450 genes are involved in the formation and breakdown (metabolism) of various molecules and chemicals within cells. Specifically, the CYP P450 2C9 plays a major role in the oxidation of both xenobiotic and endogenous compounds.
 
@@ -114,7 +114,7 @@
 
 
 
-### CYP2C9 Substrate, Carbon-Mangels et al.
+### CYP2C9 Substrate, Carbon-Mangels *et al.*
 
 **Dataset Description:** CYP P450 2C9 plays a major role in the oxidation of both xenobiotic and endogenous compounds. Substrates are drugs that are metabolized by the enzyme. TDC used a dataset from [1], which merged information on substrates and nonsubstrates from six publications.
 
@@ -126,7 +126,7 @@
 
 
 
-### CYP2D6 Substrate, Carbon-Mangels et al.
+### CYP2D6 Substrate, Carbon-Mangels *et al.*
 
 **Dataset Description:** CYP2D6 is primarily expressed in the liver. It is also highly expressed in areas of the central nervous system, including the substantia nigra. TDC used a dataset from [1] , which merged information on substrates and nonsubstrates from six publications.
 
@@ -136,7 +136,7 @@
 
 
 
-### CYP3A4 Substrate, Carbon-Mangels et al.
+### CYP3A4 Substrate, Carbon-Mangels *et al.*
 
 **Dataset Description:** CYP3A4 is an important enzyme in the body, mainly found in the liver and in the intestine. It oxidizes small foreign organic molecules (xenobiotics), such as toxins or drugs, so that they can be removed from the body. TDC used a dataset from [1], which merged information on substrates and nonsubstrates from six publications.
 
@@ -148,7 +148,7 @@
 
 
 
-### Half Life, Obach et al.
+### Half Life, Obach *et al.*
 
 **Dataset Description:** Half life of a drug is the duration for the concentration of the drug in the body to be reduced by half. It measures the duration of actions of a drug. This dataset is from [1] and we obtain the deposited version under CHEMBL assay 1614674.
 
