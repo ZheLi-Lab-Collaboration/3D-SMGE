@@ -1,6 +1,6 @@
 # <div align='center'><font size='70'>3D-SMGE</font></div>
 
-Paper *"A Pipeline for Molecules Generate and Evaluate based on Scaffolds"*
+Paper *"3D-SMGE:A Pipeline for Molecules Generate and Evaluate based on Scaffolds"*
 
 ## Summarize
 
@@ -213,3 +213,14 @@ You are supposed to unzip the weights file and put it in the root directory for 
 ## Citation
 
 If you find this useful, please consider citing our paper:
+
+```
+@article{10.1093/bib/bbad327,
+    author = {Xu, Chao and Liu, Runduo and Huang, Shuheng and Li, Wenchao and Li, Zhe and Luo, Hai-Bin},
+    title = "{3D-SMGE: a pipeline for scaffold-based molecular generation and evaluation}",
+    journal = {Briefings in Bioinformatics},
+    pages = {bbad327},
+    year = {2023},
+}
+```
+
