@@ -1,4 +1,4 @@
-<center><font size='70'>3D-SMGE</font></center>
+<h1 style="text-align:center">3D-SMGE</h1>
 
 Paper *"3D-SMGE:A Pipeline for Molecules Generate and Evaluate based on Scaffolds"*
 
