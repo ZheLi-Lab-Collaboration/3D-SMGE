@@ -175,7 +175,7 @@ For the final generated molecules, we not only provide 2D SMILES format, but als
 Firstly, you are supposed to move the generated molecules `agg_smi.smi` to the  `./data` folder.
 
 ````shell
-python ./property_Pred\ADMET/general_admet/admet-pred.py --smi_path ../data/agg_smi.smi --csv_path ../data/smi_csv.csv --admet_result_path ../data/final_admet.csv
+python ./property_Pred/ADMET/general_admet/admet-pred.py --smi_path ../data/agg_smi.smi --csv_path ../data/smi_csv.csv --admet_result_path ../data/final_admet.csv
 ````
 
 ![admet_pred](./img/admet_pred.png)
