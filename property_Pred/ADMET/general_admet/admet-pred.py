@@ -407,8 +407,14 @@ data_add_score["Skin_Reaction_pred"] = skin_pred_binary
 print(data_add_score)
 
 
+def clean_empty(path):
+    files = os.listdir(path)
+    for file in files:
+        if os.path.isdir(file):
+            if not os.listdir(file):
+                os.rmdir(file)
 
 ###  save the csv to file
-
 data.to_csv(args.admet_result_path, mode="a", index=False)
+clean_empty(os.getcwd().replace('\\', '/'))
 """---------------------------------------------------------"""
