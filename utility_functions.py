@@ -720,9 +720,9 @@ def get_random_walk(mol_dict, stop_token=10, seed=None):
     #scaffold_atoms = pred_types.tolist()[0:5]
     #target_scaffold_atoms = [6,6,6,7,8]
     #if sorted(scaffold_atoms) == sorted(target_scaffold_atoms):
-    #    logging.info("Functional group matched : Yes")
+    #    logging.info("scaffold matched : Yes")
     #else:
-    #    logging.info("Functional group matched : No")
+    #    logging.info("scaffold matched : No")
     ##################################################
     current = torch.tensor(current)
     # update dict of molecule with re-ordered positions, numbers, focus, and next types
@@ -1229,20 +1229,20 @@ def generate_molecules(amount,
         elif inputFormat == "mol2":
             atomic_numbers_fg, coordinates_fg = normal_mol2(file3D_path)
         else:
-            atomic_numbers_fg, coordinates_fg = smiles_to_xyz(scaffold) # calculating atom numbers and coordinates of the functional groupusing RdKit
+            atomic_numbers_fg, coordinates_fg = smiles_to_xyz(scaffold) # calculating atom numbers and coordinates of the scaffold by openbabel
     elif genMode == "mode2":
         if inputFormat == "pdb":
             atomic_numbers_fg, coordinates_fg, have_finished_input = specific_site_pdb(file3D_path)
         elif inputFormat == "mol2":
             atomic_numbers_fg, coordinates_fg, have_finished_input = specific_site_mol2(file3D_path)
         else:
-            atomic_numbers_fg, coordinates_fg = smiles_to_xyz(scaffold)  # calculating atom numbers and coordinates of the functional groupusing RdKit
+            atomic_numbers_fg, coordinates_fg = smiles_to_xyz(scaffold)  # calculating atom numbers and coordinates of the scaffold by openbabel
 
     coordinates_fg = torch.FloatTensor(coordinates_fg)
     #logging.info("######## before #######")
     #logging.info(coordinates_fg)
-    centroid = centeroidnp(coordinates_fg)  #calculating centroid of the functional group
-    coordinates_fg -= centroid  #shifting coordinates by centroid of the Functional Group so that COM remains ar 0 only
+    centroid = centeroidnp(coordinates_fg)  #calculating centroid of the scaffold
+    coordinates_fg -= centroid  #shifting coordinates by centroid of the scaffold so that COM remains ar 0 only
     #logging.info("####### centroid ######")
     #logging.info(centroid)
     #logging.info("######## after #######")
@@ -1272,16 +1272,16 @@ def generate_molecules(amount,
 
     positions = torch.zeros(amount, max_length, n_dims).to(device)
 
-    # setting the first n atoms with the atomic numbers of the functional group
+    # setting the first n atoms with the atomic numbers of the scaffold
     for i in range(len(atomic_numbers_fg)):
         atom_numbers[:, i + n_tokens] = atomic_numbers_fg[i]
-    # setting the first few coordinates with the coordinates of the atoms in the functional group
+    # setting the first few coordinates with the coordinates of the atoms in the scaffold
  
     for i in range(len(atomic_numbers_fg)):
         positions[:, i+2] = coordinates_fg[i]
 
 
-    logging.info("Functional group coordinates")
+    logging.info("scaffold coordinates")
     logging.info(positions)
     print("2.atom_numbers", atom_numbers)
     print("2.atom_numbers size", atom_numbers.size())
